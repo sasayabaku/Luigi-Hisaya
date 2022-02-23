@@ -6,3 +6,6 @@ services:
     tty: true
     ports:
       - "8082:8082"
+
+    volumes:
+      - ./src:/src
